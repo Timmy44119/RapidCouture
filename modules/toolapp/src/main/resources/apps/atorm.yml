@@ -1,0 +1,12 @@
+name: Toolapp
+code: toolapp
+typeSelect: custom
+installOrder: 2010
+description: |
+  Atorm configuration
+image: app-atorm.png
+modules:
+  toolapp-atorm
+dependsOn:
+  - base
+sequence: 1

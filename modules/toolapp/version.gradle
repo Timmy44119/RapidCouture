@@ -1,0 +1,4 @@
+ext {
+    openSuiteVersion = '8.2.6'
+
+}

@@ -1,0 +1,43 @@
+plugins {
+    id 'com.axelor.app'
+}
+
+apply from: "../toolapp/libs.gradle"
+apply from: "../toolapp/version.gradle"
+
+axelor {
+    title "Atorm Axelor"
+    description "Module des spécificités de Atorm"
+}
+
+dependencies {
+    api libs.axelorAccount
+    api libs.axelorBankPayment
+    api libs.axelorBase
+    api libs.axelorBudget
+    api libs.axelorBusinessProduction
+    api libs.axelorBusinessProject
+    api libs.axelorBusinessSupport
+    api libs.axelorCashManagement
+    api libs.axelorClientPortal
+    api libs.axelorContract
+    api libs.axelorCrm
+    api libs.axelorFleet
+    api libs.axelorGdpr
+    api libs.axelorHelpdesk
+    api libs.axelorHumanResource
+    api libs.axelorIntervention
+    api libs.axelorMaintenance
+    api libs.axelorMarketing
+    api libs.axelorMobileSettings
+    api libs.axelorProduction
+    api libs.axelorProject
+    api libs.axelorPurchase
+    api libs.axelorQuality
+    api libs.axelorSale
+    api libs.axelorStock
+    api libs.axelorSupplierManagement
+    api libs.axelorSupplierPortal
+    api libs.axelorSupplychain
+    api libs.axelorTalent
+}
