@@ -1,5 +1,6 @@
 plugins {
     id 'com.axelor.app'
+    id 'java'
 }
 
 apply from: "../toolapp/libs.gradle"
@@ -40,4 +41,9 @@ dependencies {
     api libs.axelorSupplierPortal
     api libs.axelorSupplychain
     api libs.axelorTalent
+}
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
 }
